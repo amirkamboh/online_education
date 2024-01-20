@@ -306,4 +306,16 @@
     background-size: cover;
     margin-bottom: 8px;
 }
-
+.learning_experience_section {
+    padding: 10px 0px;
+    background: #FDF8EE;
+}
+.learning_experience_width {
+    max-width: 1250px;
+    margin: auto;
+}
+.leaning_experience_divid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}

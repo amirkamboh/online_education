@@ -318,4 +318,74 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 16px;
+    padding: 10px 0px;
+}
+.learning_experience_img img {
+    width: 85%;
+    height: 500px;
+}
+.learning_experience_content h2 {
+    color: #050C26;
+    font-family: Roboto;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 45px;
+    line-height: 135%; /* 93.15px */
+}
+.learning_experience_content h3 {
+    color: #050C26;
+    font-family: Roboto;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 135%; /* 93.15px */
+}
+.learning_experience_content span {
+    color: #FF7426;
+}
+.learning_experience_content_divid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 25px;
+}
+.learning_experience_content .learning_experience_smallcard {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    background: #4D2C5E;
+    position: relative;
+}
+.learning_experience_content .learning_experience_smallcard_layout {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-image: url('../../media/Images/hearts.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.learning_experience_content .learning_experience_smallhead {
+    width: 500px;
+    height: 70px;
+    border-radius: 10px;
+    margin-right: 25px;
+}
+.learning_experience_content .learning_experience_smallhead h3 {
+    color: #050C26;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 171%; /* 51.3px */
+}
+.learning_experience_content .learning_experience_smallhead p {
+    color: #8A8A8A;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 171%; /* 44.46px */
 }

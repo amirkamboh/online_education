@@ -176,4 +176,134 @@
     line-height: 20px; /* 186.667% */
     margin-top: 10px;
 }
+.track_section {
+    padding: 50px 0px;
+}
+.track_section_width {
+    max-width: 1250px;
+    margin: auto;
+}
+.track_sectionA {
+    position: relative;
+}
+.track_section_content h3 {
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 70px */
+    text-transform: capitalize;
+}
+.track_section_content p {
+    color: #8A8A8A;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 40px;
+}
+.track_section_divid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+.track_section_divid .track_sectionA .track_section1 {
+    width: 100%;
+    height: 400px;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.10);
+    padding: 10px;
+}
+.track_section1 .track_section1_img {
+    height: 230px;
+    border-radius: 10px;
+    background-image: url('../../media/Images/little_girls.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 8px;
+}
+.track_section1 .track_section1_content small {
+    color: #ACACAC;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+}
+.track_section1 .track_section1_content span {
+    color: #FFA135;
+    padding: 0px 1px;
+    float: right;
+}
+.track_section1 .track_section1_content h4 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 7px;
+}
+.track_section1 .track_section1_content p {
+    color: #FF7426;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 7px;
+}
+.track_section1 .track_section1_content hr {
+    margin-top: 7px;
+}
+.track_section1 .track_section_courses ul li {
+    display: inline-block;
+    padding: 0px 5px;
+    color: #ACACAC;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 5px;
+}
+.track_sectionA .track_section1_button button {
+    position: absolute;
+    top: 380px;
+    left: 150px;    
+
+    border-radius: 16px;
+    background: #FF7426;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 7px 15px;
+    border: none;
+}
+.track_sectionA .track_section1_button button:hover {
+    cursor: pointer;
+    background-color: #4D2C5E;
+}
+.track_sectionB .track_section1 .track_section1_img {
+    height: 230px;
+    border-radius: 10px;
+    background-image: url('../../media/Images/lady.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 8px;
+}
+.track_sectionC .track_section1 .track_section1_img {
+    height: 230px;
+    border-radius: 10px;
+    background-image: url('../../media/Images/UIUX_design.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 8px;
+}
 

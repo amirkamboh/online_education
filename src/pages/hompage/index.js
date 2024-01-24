@@ -4,6 +4,7 @@ import Herosection from './Components/herosection'
 import Tracksection from './Components/tracksection'
 import Learnsection from './Components/learnsection'
 import Students from './Components/students'
+import Ourtracks from './Components/ourtracks'
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       <Tracksection />
       <Learnsection />
       <Students />
+      <Ourtracks />
     </div>
   )
 }

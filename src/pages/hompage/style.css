@@ -390,7 +390,7 @@
     line-height: 171%; /* 44.46px */
 }
 .students_sections {
-    padding: 0px 0px;
+    padding: 10px 0px;
 }
 .students_sections_width {
     max-width: 1250px;
@@ -494,4 +494,70 @@
     font-weight: 400;
     line-height: 156.5%; /* 20.345px */
     letter-spacing: 0.26px;
+}
+.our_tracks_sections {
+    padding: 10px 0px;
+}
+.our_tracks_width {
+    max-width: 1250px;
+    margin: auto;
+}
+.track_section1_content h6 {
+    color: #ACACAC;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 137.5%; /* 24.75px */
+    padding-right: 60px;
+    margin-top: 12px;
+}
+.track_section1_content h3 {
+    color: #FF7426;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 22px;
+}
+.our_tracks_sections_details .track_section1_content h3 span {
+    padding: 0px 10px;
+    float: right;
+}
+.our_tracks_sections_details .track_section1_content h3 span img {
+    width: 20px;
+    height: 20px;
+}
+.track_section_divid .track_sectionD .track_section2 {
+    width: 100%;
+    height: 383px;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.10);
+    padding: 10px;
+}
+.track_sectionD .track_section2 .track_section1_img {
+    height: 230px;
+    border-radius: 10px;
+    background-image: url('../../media/Images/matthew.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 8px;
+}
+.track_sectionE .track_section2 .track_section1_img {
+    height: 230px;
+    border-radius: 10px;
+    background-image: url('../../media/Images/tracy.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 8px;
+}
+.track_sectionF .track_section2 .track_section1_img {
+    height: 230px;
+    border-radius: 10px;
+    background-image: url('../../media/Images/Nelson.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 8px;
 }

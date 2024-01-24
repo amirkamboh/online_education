@@ -389,3 +389,109 @@
     font-weight: 500;
     line-height: 171%; /* 44.46px */
 }
+.students_sections {
+    padding: 0px 0px;
+}
+.students_sections_width {
+    max-width: 1250px;
+    margin: auto;
+}
+.students_sections_details {
+    padding: 40px 60px;
+}
+.students_sections_bio h2 {
+    color: #050C26;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 167.5%; /* 67px */
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.students_sections_bio p {
+    color: #8A8A8A;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.students_sections_divid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+.students_sections_divid .students_card1 {
+    background: #FFF;
+    box-shadow: 0px 4px 88px 0px rgba(0, 0, 0, 0.05);
+    padding: 20px 10px 20px 20px;
+    margin-top: 35px;
+} 
+.students_sections_divid .students_card1 p {
+    color: #ACACAC;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 126.5%; /* 29.735px */
+    letter-spacing: 0.38px;
+}
+.students_sections_divid .students_card1 .studtent_image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 20px;
+    position: relative;
+    background-image: url('../../media/Images/failny.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.students_sections_divid .students_card1 .studtent_image2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 20px;
+    position: relative;
+    background-image: url('../../media/Images/dannette.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.students_sections_divid .students_card1 .studtent_image3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 20px;
+    position: relative;
+    background-image: url('../../media/Images/clara.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.students_sections_divid .students_card1 .students_name {
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    margin-top: 5px;
+}
+.students_sections_divid .students_card1 .students_name h4 {
+    color: #353535;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 156.5%; /* 26.605px */
+    letter-spacing: 0.34px;
+}
+.students_sections_divid .students_card1 .students_name p {
+    color: #8E8E8E;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 156.5%; /* 20.345px */
+    letter-spacing: 0.26px;
+}

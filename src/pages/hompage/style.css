@@ -71,108 +71,50 @@
     padding: 0px 40px;
 }
 .hero_section_banner {
-    padding: 40px 40px;
-    border-radius: 14px;
+    padding: 50px 50px;
+    border-radius: 12px;
     background: #4D2C5E;
 }
-.banner_section {
+.banner_section_divid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
 }
-.banner_section1 {
-    width: 83%;
-    height: 83%;
-    border-radius: 20px;
-    background: #ffffff33;
+.hero_banner_section_cards {
+    width: 70px;
+    height: 70px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.20);
+    position: relative;
 }
-.banner_section1 .banner_section1_layout {
-    width: 60%;
-    height: 60%;
-    margin-top: 17%;
-    margin-left: 27%;
-    background-image: url('../../media/Images/online_test.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.banner_section2 h3 {
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-.banner_section2 p {
-    color: rgba(255, 255, 255, 0.60);
-    font-family: Roboto;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px; /* 186.667% */
+.hero_banner_section_cards img {
+    width: 50px;
+    height: 50px;
     margin-top: 10px;
+    margin-left: 10px;
 }
-.banner_section3 {
-    width: 83%;
-    height: 83%;
-    border-radius: 20px;
-    background: #ffffff33;
+.hero_banner_section_cards_content {
+    width: 245px;
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    left: 85px;
+    padding: 0px 10px 0px 0px;
 }
-.banner_section3 .banner_section1_layout {
-    width: 60%;
-    height: 60%;
-    margin-top: 17%;
-    margin-left: 27%;
-    background-image: url('../../media/Images/exam_paper.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.banner_section4 h3 {
+.hero_banner_section_cards_content h3 {
     color: #FFF;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
-.banner_section4 p {
+} 
+.hero_banner_section_cards_content p {
     color: rgba(255, 255, 255, 0.60);
     font-family: Roboto;
-    font-size: 12px;
+    font-size: 13px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 20px; /* 186.667% */
-    margin-top: 10px;
-}
-.banner_section5 {
-    width: 83%;
-    height: 83%;
-    border-radius: 20px;
-    background: #ffffff33;
-}
-.banner_section5 .banner_section1_layout {
-    width: 60%;
-    height: 60%;
-    margin-top: 17%;
-    margin-left: 27%;
-    background-image: url('../../media/Images/certificate.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.banner_section6 h3 {
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-.banner_section6 p {
-    color: rgba(255, 255, 255, 0.60);
-    font-family: Roboto;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 20px; /* 186.667% */
     margin-top: 10px;
 }
@@ -209,18 +151,18 @@
 .track_section_divid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 16px;
+    gap: 20px;
 }
 .track_section_divid .track_sectionA .track_section1 {
     width: 100%;
-    height: 400px;
+    height: 375px;
     border-radius: 15px;
     background: #FFF;
     box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.10);
     padding: 10px;
 }
 .track_section1 .track_section1_img {
-    height: 230px;
+    height: 200px;
     border-radius: 10px;
     background-image: url('../../media/Images/little_girls.jpg');
     background-repeat: no-repeat;
@@ -245,7 +187,6 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin-top: 7px;
 }
 .track_section1 .track_section1_content p {
     color: #FF7426;
@@ -254,7 +195,6 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin-top: 7px;
 }
 .track_section1 .track_section1_content hr {
     margin-top: 7px;
@@ -264,16 +204,16 @@
     padding: 0px 5px;
     color: #ACACAC;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 .track_sectionA .track_section1_button button {
     position: absolute;
-    top: 380px;
-    left: 150px;    
+    top: 355px;
+    left: 145px;    
 
     border-radius: 16px;
     background: #FF7426;
@@ -283,7 +223,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    padding: 7px 15px;
+    padding: 7px 20px;
     border: none;
 }
 .track_sectionA .track_section1_button button:hover {
@@ -291,7 +231,7 @@
     background-color: #4D2C5E;
 }
 .track_sectionB .track_section1 .track_section1_img {
-    height: 230px;
+    height: 200px;
     border-radius: 10px;
     background-image: url('../../media/Images/lady.png');
     background-repeat: no-repeat;
@@ -299,7 +239,7 @@
     margin-bottom: 8px;
 }
 .track_sectionC .track_section1 .track_section1_img {
-    height: 230px;
+    height: 200px;
     border-radius: 10px;
     background-image: url('../../media/Images/UIUX_design.png');
     background-repeat: no-repeat;
@@ -364,6 +304,16 @@
     top: 15px;
     left: 15px;
     background-image: url('../../media/Images/hearts.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.learning_experience_content .learning_experience_smallcard_layout2 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-image: url('../../media/Images/fun_learning.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -531,14 +481,14 @@
 }
 .track_section_divid .track_sectionD .track_section2 {
     width: 100%;
-    height: 383px;
+    height: 340px;
     border-radius: 15px;
     background: #FFF;
     box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.10);
     padding: 10px;
 }
 .track_sectionD .track_section2 .track_section1_img {
-    height: 230px;
+    height: 167px;
     border-radius: 10px;
     background-image: url('../../media/Images/matthew.jpg');
     background-repeat: no-repeat;
@@ -546,7 +496,7 @@
     margin-bottom: 8px;
 }
 .track_sectionE .track_section2 .track_section1_img {
-    height: 230px;
+    height: 167px;
     border-radius: 10px;
     background-image: url('../../media/Images/tracy.jpg');
     background-repeat: no-repeat;
@@ -554,7 +504,7 @@
     margin-bottom: 8px;
 }
 .track_sectionF .track_section2 .track_section1_img {
-    height: 230px;
+    height: 167px;
     border-radius: 10px;
     background-image: url('../../media/Images/Nelson.png');
     background-repeat: no-repeat;
@@ -597,14 +547,15 @@
     padding: 10px 0px;
 }
 .subscribe_sections_inputs {
-    padding: 10px 310px;
+    padding: 10px 285px;
 }
 .subscribe_sections_inputs input {
     border-radius: 62px;
     background: #FFF;
     align-items: center;
-    padding: 10px 120px 10px 10px;
+    padding: 10px 170px 10px 10px;
     border: none;
+    text-decoration: none;
 }
 .subscribe_sections_inputs button {
     border-radius: 16px;
@@ -616,7 +567,7 @@
     font-weight: 500;
     line-height: 144.5%; /* 28.9px */
     letter-spacing: 0.4px;
-    margin-left: 8px;
+    margin-left: 5px;
     padding: 8px 35px;
     border: none;
 }

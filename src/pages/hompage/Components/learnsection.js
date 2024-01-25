@@ -24,7 +24,7 @@ const Learnsection = () => {
                     </div>
 
                     <div className="learning_experience_smallcard">
-                    <div className="learning_experience_smallcard_layout"></div>
+                    <div className="learning_experience_smallcard_layout2"></div>
                     </div>
                     <div className="learning_experience_smallhead">
                       <h3>Fun Learning Expe</h3>

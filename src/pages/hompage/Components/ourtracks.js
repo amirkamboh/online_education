@@ -29,6 +29,7 @@ const Ourtracks = () => {
                     </div>
                 </div>
                 </div>
+
                 <div className="track_sectionE">
                 <div className="track_sectionD">
                 <div className="track_section2">
@@ -46,6 +47,7 @@ const Ourtracks = () => {
                 </div>
                 </div>
                 </div>
+
                 <div className="track_sectionF">
                 <div className="track_sectionD">
                 <div className="track_section2">
@@ -63,6 +65,7 @@ const Ourtracks = () => {
                 </div>
                 </div>
                 </div>
+                
             </div>
             </div>
         </div>

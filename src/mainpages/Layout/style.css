@@ -33,3 +33,59 @@ nav ul li:hover {
 .header_btn:hover {
     color: bisque;
 }
+.footer_section {
+    background: #FDF8EE;
+}
+.footer_section_width {
+    max-width: 1250px;
+    margin: auto;
+}
+.footer_section_divid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    gap: 16px;
+    padding: 30px 10px 20px 0px;
+}
+.footer_section_divid .footer_logo_content p {
+    color: #606060;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px; /* 163.158% */
+    padding: 0px 80px 0px 5px;
+}
+.footer_section_divid .footer_menu h3 {
+    color: #00052E;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+.footer_section_divid .footer_menu ul li {
+    display: block;
+    color: #606060;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 12px 0px;
+}
+.footer_section_divid .footer_menu ul li:hover {
+    cursor: pointer;
+    color: #bab9b5;
+}
+.footer_copyright p {
+    color: #606060;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 12px 0px;
+}

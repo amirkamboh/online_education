@@ -561,3 +561,62 @@
     background-size: cover;
     margin-bottom: 8px;
 }
+.subscribe_sections {
+    padding: 60px 0px;
+}
+.subscribe_sections_width {
+    max-width: 1250px;
+    margin: auto;
+}
+.subscribe_sections_parts {
+    padding: 10px 60px;
+}
+.subscribe_sections_card {
+    border-radius: 14px;
+    background: #4D2C5E;
+    padding: 50px 50px;
+}
+.subscribe_sections_card h2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 144.5%; /* 57.8px */
+    letter-spacing: 0.8px;
+    text-align: center;
+}
+.subscribe_sections_card p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    padding: 10px 0px;
+}
+.subscribe_sections_inputs {
+    padding: 10px 310px;
+}
+.subscribe_sections_inputs input {
+    border-radius: 62px;
+    background: #FFF;
+    align-items: center;
+    padding: 10px 120px 10px 10px;
+    border: none;
+}
+.subscribe_sections_inputs button {
+    border-radius: 16px;
+    background: #FF7426;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 144.5%; /* 28.9px */
+    letter-spacing: 0.4px;
+    margin-left: 8px;
+    padding: 8px 35px;
+    border: none;
+}

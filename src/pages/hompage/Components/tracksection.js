@@ -1,4 +1,7 @@
 import React from 'react'
+import { IoTimeSharp } from "react-icons/io5";
+import { LiaVideoSolid } from "react-icons/lia";
+import { MdOutlineFileDownload } from "react-icons/md";
 
 const Tracksection = () => {
   return (
@@ -27,8 +30,11 @@ const Tracksection = () => {
                     </div>
                     <div className="track_section_courses">
                         <ul>
+                            <li><IoTimeSharp /></li>
                             <li>22hr 30min</li>
+                            <li><LiaVideoSolid /></li>
                             <li>34 Courses</li>
+                            <li><MdOutlineFileDownload /></li>
                             <li>250 Sales</li>
                         </ul>
                     </div>
@@ -52,8 +58,11 @@ const Tracksection = () => {
                     </div>
                     <div className="track_section_courses">
                         <ul>
+                        <li><IoTimeSharp /></li>
                             <li>22hr 30min</li>
+                            <li><LiaVideoSolid /></li>
                             <li>34 Courses</li>
+                            <li><MdOutlineFileDownload /></li>
                             <li>250 Sales</li>
                         </ul>
                     </div>
@@ -78,8 +87,11 @@ const Tracksection = () => {
                     </div>
                     <div className="track_section_courses">
                         <ul>
+                            <li><IoTimeSharp /></li>
                             <li>22hr 30min</li>
+                            <li><LiaVideoSolid /></li>
                             <li>34 Courses</li>
+                            <li><MdOutlineFileDownload /></li>
                             <li>250 Sales</li>
                         </ul>
                     </div>

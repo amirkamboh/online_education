@@ -7,12 +7,11 @@
 .hero_sections_wide {
     max-width: 1250px;
     margin: auto;
-    padding: 0px 20px;
 }
 .hero_sections_divided {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 16px;
 }
 .hero_sections_content {
     margin-top: 70px;
